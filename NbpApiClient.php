@@ -1,8 +1,8 @@
 <?php
 
-namespace lukawar\NbpApi;
+namespace NbpApi;
 
-class NbpApiClient
+class NbpClient
 {
     private $mid = 'http://api.nbp.pl/api/exchangerates/rates/a/%s/?format=json';
     private $bidask = 'http://api.nbp.pl/api/exchangerates/rates/c/%s/?format=json';

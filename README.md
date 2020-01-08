@@ -1,18 +1,21 @@
 # NbpApi
-Simple NBP Api
+#### Simple NBP Api
 
-usage
+##### usage
+~~~~
+use NbpApi\NbpClient;
 
-$currency = new NbpApiClient();
-
-//all rates
-
+$currency = new NbpClient();
+~~~~
+_all rates_
+~~~~
 var_dump($currency->getRates('usd'));
-
-//only mid rates
-
+~~~~
+_only mid rates_
+~~~~
 var_dump($currency->getRateMid('usd'));
-
-//bid & ask rates
-
+~~~~
+_bid & ask rates_
+~~~~
 var_dump($currency->getRateBidAsk('usd'));
+~~~~

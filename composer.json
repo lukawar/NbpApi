@@ -1,7 +1,9 @@
 {
     "name": "lukawar/nbpapi",
     "description": "Simple NBP Api",
-    "type": "Symfony Bundle",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "type": "symfony-bundle",
     "authors": [
         {
             "name": "lukawar",
@@ -9,5 +11,13 @@
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {
+        "php": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NbpApi\\NbpClient\\": "/"
+        }
+    }
 }
