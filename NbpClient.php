@@ -1,6 +1,6 @@
 <?php
 
-namespace NbpApi;
+namespace NbpApi\Client;
 
 class NbpClient
 {
