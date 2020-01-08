@@ -1,0 +1,13 @@
+{
+    "name": "lukawar/nbpapi",
+    "description": "Simple NBP Api",
+    "type": "Symfony Bundle",
+    "authors": [
+        {
+            "name": "lukawar",
+            "email": "lwargula@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
